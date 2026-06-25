@@ -22,7 +22,8 @@ img = Image.open(input_image)
 img_flip = img.transpose(Image.FLIP_LEFT_RIGHT)
 
 # 画像の保存
-img_flip.save(output_image)```
+img_flip.save(output_image)
+```
 
 ##3.使い方
 
@@ -30,7 +31,8 @@ img_flip.save(output_image)```
 
 _コマンドラインフォーマット
 
-```python3 flip.py <input_image_path> <output_image_path>```
+```python3 flip.py <input_image_path> <output_image_path>
+```
 
 _利用例
 
