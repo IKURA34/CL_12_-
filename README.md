@@ -24,5 +24,26 @@ img_flip = img.transpose(Image.FLIP_LEFT_RIGHT)
 # 画像の保存
 img_flip.save(output_image)```
 
+##3.使い方
+
+**3.1実行例**
+
+_コマンドラインフォーマット
+
+```python3 flip.py <input_image_path> <output_image_path>```
+
+_利用例
+
+```python3 flip.py input.jpg output.jpg```
+
+**3.2出力結果**
+
+_以下のように入力画像の左右反転画像が出力されます。
+
+|入力画像 (input.jpg)|出力画像 (output.jpg)|
+|---|---|
+|<img width="640" height="468" alt="input" src="https://github.com/user-attachments/assets/55950885-441e-44b3-9f14-7b6ddefcdd58" />|<img width="640" height="468" alt="output" src="https://github.com/user-attachments/assets/34566348-1d5c-47d7-a1cc-15e991c832cd" />|
+
+以上
 
 
