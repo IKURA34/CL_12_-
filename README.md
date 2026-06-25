@@ -6,7 +6,8 @@
 
 ##2．ソースコード
 
-```# このプログラムは python3用です。
+```
+# このプログラムは python3用です。
 # あらかじめ pip install pillow で pillow をインストールしておきます。
 from PIL import Image
 import sys
@@ -31,12 +32,15 @@ img_flip.save(output_image)
 
 _ コマンドラインフォーマット
 
-```python3 flip.py <input_image_path> <output_image_path>
+```
+python3 flip.py <input_image_path> <output_image_path>
 ```
 
 _ 利用例
 
-```python3 flip.py input.jpg output.jpg```
+```
+python3 flip.py input.jpg output.jpg
+```
 
 **3.2出力結果**
 
